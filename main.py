@@ -18,7 +18,7 @@ def about():
     return {'message': 'Functional API to manage patient records'}
 
 @app.get('/display')
-def view():
+def display():
     data = load_data()
     return data
 
